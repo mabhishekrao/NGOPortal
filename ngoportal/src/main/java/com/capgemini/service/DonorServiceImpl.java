@@ -13,8 +13,9 @@ import com.capgemini.model.Donation;
 import com.capgemini.model.Donor;
 import com.capgemini.util.Util;
 
+//Class DonorServiceImpl
 public class DonorServiceImpl implements DonorService {
-
+	
 	private final EntityManager entityManager;
 	private DonorDao donorDao;
 	
